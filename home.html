@@ -21,25 +21,24 @@
 <body class="bg-secondary-subtle">
 
     <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <img src="/images/logo.png" width="60" height="50" alt="logo" class="me-1">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/home.html">Home</a>
-                        <a class="nav-link text-white" href="/html/itens.html">Itens</a>
-                        <a class="nav-link text-white" href="/html/cardapio.html">Cardápio</a>
-                        <a class="nav-link text-white" href="/html/reservas.html">Reservas</a>
-                        <a class="nav-link text-white" href="/html/contato.html">Contato</a>                        
-                    </div>
+    <nav class="navbar navbar-expand-lg bg-dark mb-3">
+        <div class="container-fluid">
+            <img src="/images/logo.png" width="60" height="50" alt="logo" class="me-1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white fw-bold" aria-current="page" href="/home.html">Home</a>
+                    <a class="nav-link text-white" href="/html/itens.html">Itens</a>
+                    <a class="nav-link text-white" href="/html/cardapio.html">Cardápio</a>
+                    <a class="nav-link text-white" href="/html/reservas.html">Reservas</a>
+                    <a class="nav-link text-white" href="/html/contato.html">Contato</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
     <!-- Container de todo o Menu -->
     <div class="container bg-light p-0 mt-4 mb-3 rounded-2 shadow-lg text-center w-50">
@@ -57,13 +56,11 @@
                     <img src="/images/img_prato3.jpg" class="d-block w-100" alt="prato3">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPratos"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPratos" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPratos"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPratos" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -100,7 +97,7 @@
                                 <!-- Quantity -->
                                 <div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus">
-                                    <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0"
+                                    <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0"
                                         title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="button" value="+" class="plus">
                                 </div>
@@ -119,7 +116,7 @@
                                 <!-- Quantity -->
                                 <div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus">
-                                    <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0"
+                                    <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0"
                                         title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="button" value="+" class="plus">
                                 </div>
@@ -138,7 +135,7 @@
                                 <!-- Quantity -->
                                 <div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus">
-                                    <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0"
+                                    <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0"
                                         title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="button" value="+" class="plus">
                                 </div>
@@ -196,7 +193,7 @@
                                 <!-- Quantity -->
                                 <div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus">
-                                    <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0"
+                                    <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0"
                                         title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="button" value="+" class="plus">
                                 </div>
@@ -215,7 +212,7 @@
                                 <!-- Quantity -->
                                 <div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus">
-                                    <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0"
+                                    <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0"
                                         title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                     <input type="button" value="+" class="plus">
                                 </div>
@@ -238,8 +235,7 @@
                 <div class="col-11">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nome Completo</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Ex: Pedro Machado">
+                        <input type="text" class="form-control" id="name" placeholder="Ex: Pedro Machado">
                     </div>
                 </div>
             </div>
@@ -248,24 +244,47 @@
                 <div class="col-11">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Telefone</label>
-                        <input type="phone" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Ex: (15) 9191-91919">
+                        <input type="phone" class="form-control" id="phone" placeholder="Ex: (15) 91919-9191">
                     </div>
                 </div>
             </div>
             <!-- Email -->
-            <div class="row text-start justify-content-center">
+            <div class="row text-start justify-content-center pb-3">
                 <div class="col-11">
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Ex: nome@exemplo.com">
+                        <input type="email" class="form-control" id="email" placeholder="Ex: nome@exemplo.com">
                     </div>
                 </div>
             </div>
         </div>
 
-        <button type="button" class="btn btn-primary">Primary</button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary w-25 mb-4 p-2" data-bs-toggle="modal"
+            data-bs-target="#modalResumo">
+            Calcular
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalResumo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalResumoTitulo">Resumo</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start m-2" id="output">
+                    </div>
+                    <div class="modal-footer mb-3">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alerts -->
+        <div class="alert alert-danger d-none" role="alert" id="alert_name"></div>
+        <!-- <button onclick="result()" type="button" class="btn btn-primary w-25 mb-4 p-2">Calcular</button> -->
 
     </div>
 

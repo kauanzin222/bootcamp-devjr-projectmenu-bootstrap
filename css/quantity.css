@@ -34,9 +34,10 @@
 .quantity.buttons_added .plus {
     padding: 7px 10px 8px;
     height: 41px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border: 1px solid #efefef;
     cursor: pointer;
+
 }
 
 .quantity.buttons_added .minus {

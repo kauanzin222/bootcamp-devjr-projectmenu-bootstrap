@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Menu</title>
 
+    <link rel="icon" href="/images/logo.png">
+
     <!-- CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -17,13 +19,10 @@
 
 <body class="bg-secondary-subtle">
 
-    <!-- Container de todo o Menu -->
-    <div class="container bg-light p-0 text-center w-50">
-
-        <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg bg-primary">
+    <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <img src="/images/logo.png" width="60" height="50" alt="logo" class="me-1">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -31,14 +30,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link active text-white fw-bold" aria-current="page" href="/home.html">Home</a>
+                        <a class="nav-link text-white" href="/html/itens.html">Itens</a>
+                        <a class="nav-link text-white" href="/html/cardapio.html">Cardápio</a>
+                        <a class="nav-link text-white" href="/html/reservas.html">Reservas</a>
+                        <a class="nav-link text-white" href="/html/contato.html">Contato</a>                        
                     </div>
                 </div>
             </div>
         </nav>
+
+    <!-- Container de todo o Menu -->
+    <div class="container bg-light p-0 mt-5 rounded shadow-lg text-center w-50">
 
         <!-- Carousel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade text-center mb-4">

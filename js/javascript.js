@@ -13,9 +13,17 @@ modalResumo.on('show.bs.modal',
 
     function result() {
         var output = $("#output");
+        
+        /* Verificando se nome está vazio */
         var name = $("#name").val();
+        if (name == '') {
+            output.html(`<br><strong><h2 class="alert alert-warning">NOME INVÁLIDO!</h2><strong><br>`)
+            return;
+        }
+
         var quantities = $("[name='quantity']");
 
+        var verificaQuantity = 0;
         var total = 0;
 
         var formatter = new Intl.NumberFormat('pt-BR', {
@@ -23,6 +31,17 @@ modalResumo.on('show.bs.modal',
             currency: 'BRL'
         })
 
+        for (var input of quantities) {
+            var id = input.id;
+
+            if (input.value > 0)
+                verificaQuantity++;
+        }
+
+        if (verificaQuantity == 0) {
+            output.html(`<br><strong><h2 class="alert alert-warning">NENHUM ITEM SELECIONADO!</h2><strong><br>`)
+            return;
+        }
 
         output.html(`<br>Caro(a) <strong>${name}</strong>, <br><br><br>
                     Seguem os dados do seu pedido <br><br>

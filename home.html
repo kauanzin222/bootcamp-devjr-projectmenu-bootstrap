@@ -18,10 +18,10 @@
 
 </head>
 
-<body class="bg-secondary-subtle">
+<body class="bg-secondary bg-gradient">
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-dark mb-3">
+    <nav class="navbar navbar-expand-lg bg-dark mb-3" data-bs-theme="dark">
         <div class="container-fluid">
             <img src="/images/logo.png" width="60" height="50" alt="logo" class="me-1">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -31,7 +31,6 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active text-white fw-bold" aria-current="page" href="/home.html">Home</a>
-                    <a class="nav-link text-white" href="/html/itens.html">Itens</a>
                     <a class="nav-link text-white" href="/html/cardapio.html">Cardápio</a>
                     <a class="nav-link text-white" href="/html/reservas.html">Reservas</a>
                     <a class="nav-link text-white" href="/html/contato.html">Contato</a>
@@ -41,7 +40,7 @@
     </nav>
 
     <!-- Container de todo o Menu -->
-    <div class="container bg-light p-0 mt-4 mb-3 rounded-2 shadow-lg text-center w-50">
+    <div class="container bg-light p-0 mt-4 mb-md-3 rounded-2 shadow-lg text-center" style="width: 80;">
 
         <!-- Carousel -->
         <div id="carouselPratos" class="carousel slide carousel-fade text-center p-4 mb-2">
@@ -67,10 +66,10 @@
         </div>
 
         <!-- Title -->
-        <h1 class="display-5 fw-bold text-center mb-4">Menu - Faça a sua escolha!</h1>
+        <h1 class="display-6 display-lg-4 fw-bold text-center mb-4">Menu - Faça a sua escolha!</h1>
 
         <!-- Prato Principal -->
-        <div class="container text-center w-75 mb-4 rounded-3 shadow-sm bg-secondary-subtle">
+        <div class="container text-center mb-4 rounded-3 shadow-sm bg-secondary-subtle" style="width: 75%;">
             <!-- Title & Sub-title -->
             <div class="row pt-4 mb-4">
                 <div class="col">
@@ -87,8 +86,8 @@
                 <div class="row justify-content-center gap-5">
 
                     <!-- Bife com Batata -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/bife.jpg" class="card-img-top" alt="bife com batata">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Bife com Batata</p>
@@ -106,8 +105,8 @@
                     </div>
 
                     <!-- Coxa de Frango -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/coxa.jpg" class="card-img-top" alt="coxa de frango">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Coxa de Frango</p>
@@ -125,8 +124,8 @@
                     </div>
 
                     <!-- Carne na Panela -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/panela.jpg" class="card-img-top" alt="carne na panela">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Carne na Panela</p>
@@ -147,7 +146,7 @@
         </div>
 
         <!-- Acompanhamentos -->
-        <div class="container text-center w-75 mb-4 rounded-3 shadow-sm bg-secondary-subtle">
+        <div class="container text-center mb-4 rounded-3 shadow-sm bg-secondary-subtle" style="width: 75%;">
             <!-- Title & Sub-title -->
             <div class="row pt-4 mb-4">
                 <div class="col">
@@ -164,8 +163,8 @@
                 <div class="row justify-content-center gap-5">
 
                     <!-- Farofa -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/farofa.jpg" class="card-img-top" alt="farofa">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Farofa</p>
@@ -183,8 +182,8 @@
                     </div>
 
                     <!-- Salada -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/salad.jpg" class="card-img-top" alt="salada">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Salada</p>
@@ -202,8 +201,8 @@
                     </div>
 
                     <!-- Torresmo -->
-                    <div class="col-3 offset-0 p-0">
-                        <div class="card" style="width: 12rem;">
+                    <div class="col-10 col-sm-6 col-xl-4 col-xxl-3 offset-0 p-0">
+                        <div class="card w-100" style="width: 12rem;">
                             <img src="/images/torresmo.jpg" class="card-img-top" alt="torresmo">
                             <div class="card-body">
                                 <p class="card-text fw-bold m-1">Torresmo</p>
@@ -224,13 +223,13 @@
         </div>
 
         <!-- Dados Pessoais -->
-        <div class="container text-center w-75 mb-4 rounded-3 shadow-sm bg-secondary-subtle">
+        <div class="container justify-content-center mb-4 rounded-3 shadow-sm bg-secondary-subtle" style="width: 75%;">
 
             <!-- Title -->
             <div class="display-6 fw-bold text-center pt-4 mb-4">Dados Pessoais</div>
 
             <!-- Form -->
-            <div class="row text-start justify-content-center">
+            <div class="row text-start justify-content-center w-75 m-auto">
                 <!-- Nome Completo -->
                 <div class="col-11">
                     <div class="mb-3">
@@ -240,7 +239,7 @@
                 </div>
             </div>
             <!-- Telefone -->
-            <div class="row text-start justify-content-center">
+            <div class="row text-start justify-content-center w-75 m-auto">
                 <div class="col-11">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Telefone</label>
@@ -249,7 +248,7 @@
                 </div>
             </div>
             <!-- Email -->
-            <div class="row text-start justify-content-center pb-3">
+            <div class="row text-start justify-content-center pb-3 w-75 m-auto">
                 <div class="col-11">
                     <div class="mb-4">
                         <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -281,17 +280,7 @@
                 </div>
             </div>
         </div>
-
-        <!-- Alerts -->
-        <div class="alert alert-danger d-none" role="alert" id="alert_name"></div>
-        <!-- <button onclick="result()" type="button" class="btn btn-primary w-25 mb-4 p-2">Calcular</button> -->
-
     </div>
-
-
-
-
-
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

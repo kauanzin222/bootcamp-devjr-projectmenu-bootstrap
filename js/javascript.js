@@ -13,13 +13,7 @@ modalResumo.on('show.bs.modal',
 
     function result() {
         var output = $("#output");
-
         var name = $("#name").val();
-        if (name.trim() === '') {
-            output = $("#alert_name");
-            output.html(`Nome inválido!`);
-        }
-
         var quantities = $("[name='quantity']");
 
         var total = 0;

@@ -6,7 +6,7 @@
       - CSS;
       - JavaScript.
         
-  - Now, in this project, I must remaster it with BootStrap, and this brought a new vision to me, I tried to make the site new with a much better interface, I applied components that I had learned and I was very concerned about responsiveness.
+  - Now, in this project, I must remaster it with **BootStrap**, and this brought a new vision to me, I tried to make the site new with a much better interface, I applied components that I had learned and I was very concerned about responsiveness.
     
 ## Final Result:
 

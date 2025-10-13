@@ -1,13 +1,13 @@
 # Menu Project 🍽️
 
-  - Este projeto é muito **especial** para mim porque é uma *atualização* do [Menu Project](https://github.com/kauanzin222/bootcamp-devjr-ProjetoMenu.git) que eu havia feito apenas com:
+  - This project is very **special** for me because it is an *update* of the [Menu Project](https://github.com/kauanzin222/bootcamp-devjr-ProjetoMenu.git) that I had just done with:
     
       - HTML;
       - CSS;
       - JavaScript.
         
-  - Agora, neste projeto, devo remasterizá-lo com BootStrap, e isso trouxe uma nova visãao pra mim, tentei deixar o site novo com uma interface muito melhor, apliquei componentes que eu havia aprendido e me preocupei bastante com a reponsividade.
-
+  - Now, in this project, I must remaster it with BootStrap, and this brought a new vision to me, I tried to make the site new with a much better interface, I applied components that I had learned and I was very concerned about responsiveness.
+    
 ## Final Result:
 
 ![menu1](https://github.com/kauanzin222/bootcamp-devjr-projectmenu-bootstrap/blob/main/images/exemplos/menu1.png)
@@ -16,8 +16,8 @@
 --- 
 
 ### Modal
-  - Ao clicar em "Calcular" usei o componente de modal para exibir um resumo do pedido. Avisando caso um **item não tenha sido selecionado ou nome ser inválido**.
-
+  - By clicking "Calcular" I used the modal component to display a summary of the order. Warning if an **item has not been selected or the name is invalid**.
+    
 ![modal](https://github.com/kauanzin222/bootcamp-devjr-projectmenu-bootstrap/blob/main/images/exemplos/modal.png)
 
 ---
